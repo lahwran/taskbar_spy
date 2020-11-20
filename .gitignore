@@ -82,6 +82,9 @@ celerybeat-schedule
 venv/
 ENV/
 .venv
+venv*
+lastdesktop
+*trigger
 
 # Spyder project settings
 .spyderproject
@@ -91,3 +94,6 @@ ENV/
 
 # Visual Studio Code
 .vscode
+
+
+

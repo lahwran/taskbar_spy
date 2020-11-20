@@ -1,18 +1,6 @@
-## PyInspect
+1. create python 3.6 virtual environment 
+2. install pywinauto, pyvda, quart, hypercorn, pywin32 in the virtual environment 
+3. in order to use run.sh install rust and then `cargo installed watchexec`
 
-**Dmitry Vodopyanov, Alexander Smirnov**  
-*Lobachevsky University, Nizhny Novgorod, Russia*
 
-Simple Inspect.exe analogue for Windows using Python 3.5, pywinauto and PyQt.
-
-#### Requirements
-
-- Windows OS (Windows 10 is preferable)
-- [Python 3.5](https://www.python.org/downloads/release/python-350/)
-- pywinauto  
-  ```pip3 install pywinauto```
-- PyQt5  
-  ```pip3 install PyQt5```
-  
-#### Run
-```python3 py_inspect.py```
+this repository is kind of a mess, it's forked from `py_inspect` because i'm lazy and it's overengineered because i'm a goofball 
