@@ -1,3 +1,21 @@
+# import sys
+# import os
+# win32 = False
+# pathwin32 = None
+# for iz in sys.path:
+#     if 'site-packages' in iz:
+#         pathwin32 = os.path.join(iz, 'pywin32_system32')
+#         if os.path.isdir(pathwin32):
+#             break
+#         pathwin32 = None
+# os.add_dll_directory(pathwin32)
+# import win32gui
+# import win32ui
+# import win32con
+# win32 = True
+
+
+
 from PyQt5.QtCore import QLocale
 from PyQt5.QtCore import QCoreApplication
 from PyQt5.QtCore import QSettings
@@ -34,7 +52,7 @@ class MyWindow(QWidget):
     def __init__(self):
         super(MyWindow, self).__init__()
 
-        self.setMinimumSize(1000, 1000)
+        self.setMinimumSize(10, 10)
         self.setLocale(QLocale(QLocale.English, QLocale.UnitedStates))
         self.setWindowTitle(
             QCoreApplication.translate("MainWindow", "PyInspect"))
